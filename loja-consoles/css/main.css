@@ -1,20 +1,28 @@
-.row_logo{
-    width: 100%;
-    height: 100%;
+#row_logo{
+    width: none;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding-left: ;
 }
-.inline_block{
-    display: inline-block;
+.mainLogo{
+    height: 400px;
+    width: 100%;
 }
 
 #top_nav{
     width: 700px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
 }
 
-#top_nav nav{
+#top_nav a{
     font-size: 20pt;
+    align-items: center;
+    justify-content: center;
+    padding-left: auto;
 }
 #top_nav li{
     padding-right: 8%;
